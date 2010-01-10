@@ -12,5 +12,5 @@ class KajianPipeline(object):
     def process_item(self, domain, item):
 	link_lowercase = item['link_lowercase'][0].replace('%20',' ')
 #	desc = item['description'][0].replace("\n","")
-	self.csvwriter.writerow([item['link'], item['title'][0], link_lowercase])
+	self.csvwriter.writerow([item['link'], item['title'][0], link_lowercase,"none"])
         return item

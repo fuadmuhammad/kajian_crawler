@@ -17,4 +17,4 @@ SPIDER_MODULES = ['radiorodja.spiders']
 NEWSPIDER_MODULE = 'radiorodja.spiders'
 DEFAULT_ITEM_CLASS = 'radiorodja.items.RadiorodjaItem'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
-
+ITEM_PIPELINES = ['radiorodja.pipelines.RadiorodjaPipeline']

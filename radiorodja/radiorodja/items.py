@@ -9,4 +9,7 @@ class RadiorodjaItem(Item):
     link = Field()
     title = Field()
     link_lowercase = Field()
-    description = Field()
+    desc1 = Field()
+    desc2 = Field()
+    desc3 = Field()
+    desc4 = Field()
